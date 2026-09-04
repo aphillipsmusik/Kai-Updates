@@ -11,7 +11,7 @@ where the playing actually gets built, and nobody is watching. Kai is the thing
 that sits with a student in between: it watches the hands through a webcam,
 confirms the notes over MIDI, and keeps track of what needs work — against the
 assignment the human teacher set. It reports back to that teacher. It does not
-overrule them.
+overrule them. (the picture above is a future vision of the project)
 
 ## What this repository is
 
