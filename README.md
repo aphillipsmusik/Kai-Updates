@@ -14,6 +14,19 @@ assignment the human teacher set. It reports back to that teacher. It does not
 overrule them. (The picture above is where this is going, not where it is.)
 
 <!-- kai:release -->
+## Latest release
+
+**0.1.9** — 13 September 2026
+
+| | |
+|---|---|
+| Installer | `Kai Setup 0.1.9.exe` |
+| Size | 115.1 MB |
+| SHA-256 | `2a1641fc4ed4dbf89142338d07431497e42c2c2dff144a32dfce4e6d678a964a` |
+| Notes | [What changed in 0.1.9](https://github.com/aphillipsmusik/Kai-Updates/releases/tag/v0.1.9) |
+
+Already running Kai? **Settings → Updates → Check**. There is no download
+button here — see "Getting Kai" below for why.
 <!-- /kai:release -->
 
 ## What this repository is
@@ -64,7 +77,7 @@ Every release ships a `manifest.json` carrying the installer's SHA-256:
 
 <!-- kai:checksum -->
 ```powershell
-Get-FileHash ".\Kai Setup 0.1.4.exe" -Algorithm SHA256
+Get-FileHash ".\Kai Setup 0.1.9.exe" -Algorithm SHA256
 ```
 <!-- /kai:checksum -->
 
