@@ -13,6 +13,9 @@ confirms the notes over MIDI, and keeps track of what needs work — against the
 assignment the human teacher set. It reports back to that teacher. It does not
 overrule them. (The picture above is where this is going, not where it is.)
 
+<!-- kai:release -->
+<!-- /kai:release -->
+
 ## What this repository is
 
 **The release channel, not the source.** It holds the release notes and each
@@ -59,9 +62,11 @@ Kai will start but will not be able to load your own instruments.
 
 Every release ships a `manifest.json` carrying the installer's SHA-256:
 
+<!-- kai:checksum -->
 ```powershell
 Get-FileHash ".\Kai Setup 0.1.4.exe" -Algorithm SHA256
 ```
+<!-- /kai:checksum -->
 
 Compare it to the `sha256` field. Kai's own updater does this on every download
 and refuses to run an installer that does not match — a release published
